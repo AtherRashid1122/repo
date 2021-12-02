@@ -1,0 +1,12 @@
+how to add remote to local repo ?
+
+
+git remote add origin url 
+example
+ git remote add origin https://github.com/AtherRashid1122/repo.git 
+
+
+how to check remote if it exists?
+git remote -v
+as git remote is missing i will add a remote of git 
+now 

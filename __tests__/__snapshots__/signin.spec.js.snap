@@ -1,0 +1,278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sign-in-correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "borderColor": "gray",
+            "borderWidth": 1,
+            "margin": 40,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "margin": 30,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                Object {
+                  "fontSize": 15,
+                  "lineHeight": 20,
+                  "marginBottom": 5,
+                  "marginTop": 5,
+                }
+              }
+            >
+              Tenent
+            </Text>
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoFocus={true}
+              name="tenent"
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="Type your tenent name"
+              rejectResponderTermination={true}
+              style={
+                Object {
+                  "borderColor": "gray",
+                  "borderRadius": 20,
+                  "borderWidth": 1,
+                  "fontSize": 13,
+                  "marginBottom": 2,
+                  "marginTop": 5,
+                  "paddingBottom": 8,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 8,
+                }
+              }
+              underlineColorAndroid="transparent"
+            />
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 15,
+                    "lineHeight": 20,
+                    "marginBottom": 5,
+                    "textAlign": "right",
+                  }
+                }
+              >
+                .groovepacker.com
+              </Text>
+            </View>
+          </View>
+          <View>
+            <Text
+              style={
+                Object {
+                  "fontSize": 15,
+                  "lineHeight": 20,
+                  "marginBottom": 5,
+                  "marginTop": 5,
+                }
+              }
+            >
+              Username
+            </Text>
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              name="username"
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="Type your name"
+              rejectResponderTermination={true}
+              style={
+                Array [
+                  Object {
+                    "borderColor": "gray",
+                    "borderRadius": 20,
+                    "borderWidth": 1,
+                    "fontSize": 13,
+                    "marginBottom": 2,
+                    "marginTop": 5,
+                    "paddingBottom": 8,
+                    "paddingLeft": 15,
+                    "paddingRight": 15,
+                    "paddingTop": 8,
+                  },
+                  Object {
+                    "marginBottom": 5,
+                  },
+                ]
+              }
+              underlineColorAndroid="transparent"
+            />
+          </View>
+          <View>
+            <Text
+              style={
+                Object {
+                  "fontSize": 15,
+                  "lineHeight": 20,
+                  "marginBottom": 5,
+                  "marginTop": 5,
+                }
+              }
+            >
+              Password
+            </Text>
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              name="Password"
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="Type your password"
+              rejectResponderTermination={true}
+              secureTextEntry={true}
+              style={
+                Array [
+                  Object {
+                    "borderColor": "gray",
+                    "borderRadius": 20,
+                    "borderWidth": 1,
+                    "fontSize": 13,
+                    "marginBottom": 2,
+                    "marginTop": 5,
+                    "paddingBottom": 8,
+                    "paddingLeft": 15,
+                    "paddingRight": 15,
+                    "paddingTop": 8,
+                  },
+                  Object {
+                    "marginBottom": 5,
+                  },
+                ]
+              }
+              underlineColorAndroid="transparent"
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "flexDirection": "row",
+              "marginBottom": 20,
+              "marginLeft": 20,
+              "marginRight": 20,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "borderRadius": 20,
+                  "borderWidth": 1,
+                  "color": "black",
+                  "fontSize": 15,
+                  "height": 40,
+                  "marginLeft": 4,
+                  "marginRight": 4,
+                  "marginTop": 14,
+                  "paddingBottom": 10,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Login
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            focusable={false}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "borderRadius": 20,
+                  "borderWidth": 1,
+                  "color": "black",
+                  "fontSize": 15,
+                  "height": 40,
+                  "marginLeft": 4,
+                  "marginRight": 4,
+                  "marginTop": 14,
+                  "paddingBottom": 10,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Reset Password
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

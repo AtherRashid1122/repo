@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "GroovePacker",
+    "slug": "groove-packer-slug",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "icon": "./assets/icon_main.png",
+    "splash": {
+      "image": "./assets/1024x1024.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.groovepacker.groovepackerEX",
+      "buildNumber": "2.0.3"
+    },
+    "android": {
+      "package": "com.groovepacker.groovepackerEX",
+      "versionCode": 2
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
